@@ -7,7 +7,7 @@ function checkAnswer() {
 
         const correctAnswer = 4
 
-        if(parseInt(userAnswer.value) === correctAnswer){
+        if(userAnswer === correctAnswer){
             feedback.textContent = "correct! well done."
     }
     else{
